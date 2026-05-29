@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/myCss.css" />
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="../files/images/logo.jpg"
+        alt="logo"
+        style="border-radius: 50%; height: 5%; width: 5%"
+      />
+      <h1>Heart to Hand Donation platform</h1>
+      <ul>
+        <li><a href="myBase.html">Home</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contactme.html">Contact</a></li>
+        <li><a href="myCampaign.html">Campaigns</a></li>
+        <li><a href="myDashboard.html">Dashboard</a></li>
+        <li><a href="myevent.html">Event</a></li>
+        <li><a href="Testimonials.html">Testimonials</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <section class="grid">
+        <div class="card">
+          <h2>Campaigns Table</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Campaign</th>
+                <th>Category</th>
+                <th>Collected</th>
+                <th>Goal</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Education Kits</td>
+                <td>Education</td>
+                <td>৳120,000</td>
+                <td>৳200,000</td>
+                <td><span class="status live">Live</span></td>
+              </tr>
+              <tr>
+                <td>Health Camp</td>
+                <td>Health</td>
+                <td>৳85,000</td>
+                <td>৳150,000</td>
+                <td><span class="status upcoming">Upcoming</span></td>
+              </tr>
+              <tr>
+                <td>Food Support</td>
+                <td>Food</td>
+                <td>৳220,000</td>
+                <td>৳220,000</td>
+                <td><span class="status completed">Completed</span></td>
+              </tr>
+              <tr>
+                <td>Shelter Relief</td>
+                <td>Shelter</td>
+                <td>৳40,000</td>
+                <td>৳100,000</td>
+                <td><span class="status live">Live</span></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br /><br />
+          <h3>Key Points</h3>
+          <br />
+          <ul>
+            <li>Education <sup>Top Priority</sup></li>
+            <li>Health <sub>(Community)</sub></li>
+            <li>Food <sup>Essential</sup></li>
+            <li>Shelter <sub>(Relief)</sub></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Goal Progress</h2>
+          <div class="meter-block">
+            <strong>Education Kits</strong>
+            <div class="meter-row">
+              <meter min="0" max="200000" value="120000"></meter
+              ><span>60%</span>
+            </div>
+            <div class="meter-label">
+              <span>৳120,000</span><span>৳200,000</span>
+            </div>
+          </div>
+          <div class="meter-block">
+            <strong>Health Camp</strong>
+            <div class="meter-row">
+              <meter min="0" max="150000" value="85000"></meter><span>57%</span>
+            </div>
+            <div class="meter-label">
+              <span>৳85,000</span><span>৳150,000</span>
+            </div>
+          </div>
+          <div class="meter-block">
+            <strong>Shelter Relief</strong>
+            <div class="meter-row">
+              <meter min="0" max="100000" value="40000"></meter><span>40%</span>
+            </div>
+            <div class="meter-label">
+              <span>৳40,000</span><span>৳100,000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Donations by Category</h2>
+          <svg width="100%" height="240" viewBox="0 0 640 240">
+            <line x1="60" y1="200" x2="600" y2="200" stroke="#9ca3af" />
+            <line x1="60" y1="30" x2="60" y2="200" stroke="#9ca3af" />
+            <rect
+              x="120"
+              y="200"
+              width="60"
+              height="-220"
+              fill="#10b981"
+              rx="6"
+            />
+            <rect
+              x="220"
+              y="200"
+              width="60"
+              height="-120"
+              fill="#2563eb"
+              rx="6"
+            />
+            <rect
+              x="320"
+              y="200"
+              width="60"
+              height="-85"
+              fill="#f59e0b"
+              rx="6"
+            />
+            <rect
+              x="420"
+              y="200"
+              width="60"
+              height="-40"
+              fill="#ef4444"
+              rx="6"
+            />
+            <text x="120" y="218" font-size="12">Food</text>
+            <text x="220" y="218" font-size="12">Education</text>
+            <text x="320" y="218" font-size="12">Health</text>
+            <text x="420" y="218" font-size="12">Shelter</text>
+          </svg>
+          <div class="svg-legend">
+            <span class="legend-item"
+              ><span class="legend-swatch" style="background: #2563eb"></span
+              >Education</span
+            >
+            <span class="legend-item"
+              ><span class="legend-swatch" style="background: #f59e0b"></span
+              >Health</span
+            >
+            <span class="legend-item"
+              ><span class="legend-swatch" style="background: #10b981"></span
+              >Food</span
+            >
+            <span class="legend-item"
+              ><span class="legend-swatch" style="background: #ef4444"></span
+              >Shelter</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p>Address: 123 Charity Street, Dhaka, Bangladesh</p>
+          <p>Email: info@hearttohand.org</p>
+          <p>Phone: +880 123 456 789</p>
+          <p>Location: Dhaka, Bangladesh</p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <p><a href="myBase.html">Home</a></p>
+          <p><a href="aboutus.html">About</a></p>
+          <p><a href="myCampaign.html">Campaigns</a></p>
+          <p><a href="contactme.html">Contact</a></p>
+          <p><a href="myDashboard.html">Dashboard</a></p>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <p><a href="#">Facebook</a></p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">Twitter</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 Heart to Hand. All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+</html>

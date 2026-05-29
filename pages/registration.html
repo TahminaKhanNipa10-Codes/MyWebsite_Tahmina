@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="../css/myCss.css">
+</head>
+<body>
+  <nav>
+    <img src="../files/images/logo.jpg" alt="logo" style="border-radius:50%;height:5%;width:5%">
+    <h1>Heart to Hand Donation Platform</h1>
+    <ul>
+      <li><a href="myBase.html">Home</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="contactme.html">Contact</a></li>
+      <li><a href="myCampaign.html">Campaigns</a></li>
+      <li><a href="myDashboard.html">Dashboard</a></li>
+      <li><a href="myevent.html">Event</a></li>
+      <li><a href="Testimonials.html">Testimonials</a></li>
+    </ul>
+  </nav>
+
+  <div class="register-section">
+    <h2>Create Account</h2>
+    <p>Open a new account to track your donations and receive updates.</p>
+
+    <form action="register.php" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="name@email.com" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="+8801XXXXXXXXX">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="confirm">Confirm Password</label>
+      <input type="password" id="confirm" name="confirm" required>
+
+      <button type="submit" class="btn btn-primary">Register</button>
+      <button type="reset" class="btn btn-muted">Clear</button>
+    </form>
+
+    <p class="note">By creating an account, you can track your donations and get campaign updates.</p>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>Address: 123 Charity Street, Dhaka, Bangladesh</p>
+        <p>Email: info@hearttohand.org</p>
+        <p>Phone: +880 123 456 789</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <p><a href="myBase.html">Home</a></p>
+        <p><a href="aboutus.html">About</a></p>
+        <p><a href="myCampaign.html">Campaigns</a></p>
+        <p><a href="contactme.html">Contact</a></p>
+        <p><a href="myDashboard.html">Dashboard</a></p>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">Instagram</a></p>
+        <p><a href="#">Twitter</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Heart to Hand. All Rights Reserved.
+    </div>
+  </footer>
+</body>
+</html>
