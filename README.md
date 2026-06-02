@@ -25,7 +25,7 @@ A fully responsive, multi-page donation website that connects donors with meanin
 * **Multimedia Integration:** Native HTML5 video and audio appeal layers (`flash-flood-river-193062.mp3`).
 * **Donation Progress Bar:** Functional custom CSS progress bar showcasing milestone data (**Raised: $6,000 / Goal: $10,000**).
 * **Community Features:** Recent donors list, comments feed, and social share triggers (Facebook, WhatsApp).
-![](screenshots/campaignPage.jpeg)
+![](screenshots/campaign.jpeg)
 
 ### 💳 Donate Now (`donatenow.html`)
 * **Donation Form:** Custom styled input form capturing user details and amount (Minimum validation: **50 BDT**).
@@ -35,7 +35,7 @@ A fully responsive, multi-page donation website that connects donors with meanin
 * **Campaigns Data Table:** Matrix listing project status badges (`Live` / `Upcoming` / `Completed`).
 * **Progress Meters:** Status tracker bars mapping individual institutional progress.
 * **SVG Bar Chart:** A native **Pure SVG Bar Chart** showing data breakdowns by categories.
-![](screenshots/donateNow.jpeg)
+![](screenshots/donatenow.jpeg)
 
 ### 📅 Event Registration (`myevent.html`)
 * **Registration Form:** Data fields capturing name, email, phone, and participant counts.
