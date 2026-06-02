@@ -17,7 +17,7 @@ A fully responsive, multi-page donation website that connects donors with meanin
 * **Donation Project Cards:** Clean layout cards with optimized grid images and descriptions.
 * **Payment Method Section:** Visual layouts for local payment networks (bKash, Nagad, Rocket, Credit/Debit cards).
 
-![](homepage.jpeg)
+![](screenshots/homepage.jpeg)
 
 ### 📢 Campaign Page (`myCampaign.html`)
 * **Full Campaign Detail:** Structured template covering title, date range, and organizer info.
@@ -25,7 +25,7 @@ A fully responsive, multi-page donation website that connects donors with meanin
 * **Multimedia Integration:** Native HTML5 video and audio appeal layers (`flash-flood-river-193062.mp3`).
 * **Donation Progress Bar:** Functional custom CSS progress bar showcasing milestone data (**Raised: $6,000 / Goal: $10,000**).
 * **Community Features:** Recent donors list, comments feed, and social share triggers (Facebook, WhatsApp).
-![](campaignPage.jpeg)
+![](screenshots/campaignPage.jpeg)
 
 ### 💳 Donate Now (`donatenow.html`)
 * **Donation Form:** Custom styled input form capturing user details and amount (Minimum validation: **50 BDT**).
@@ -35,12 +35,12 @@ A fully responsive, multi-page donation website that connects donors with meanin
 * **Campaigns Data Table:** Matrix listing project status badges (`Live` / `Upcoming` / `Completed`).
 * **Progress Meters:** Status tracker bars mapping individual institutional progress.
 * **SVG Bar Chart:** A native **Pure SVG Bar Chart** showing data breakdowns by categories.
-![](donateNow.jpeg)
+![](screenshots/donateNow.jpeg)
 
 ### 📅 Event Registration (`myevent.html`)
 * **Registration Form:** Data fields capturing name, email, phone, and participant counts.
 * **Dropdown Selection:** Interactive options covering Education Support Camp, Health Check-up Day, Food Distribution, and Shelter Relief.
-![](event.jpeg)
+![](screenshots/event.jpeg)
 ### 🔐 User Authentication Layouts
 * **Registration & Sign Up:** Hand-coded login, account creation, and user identity profile flows.
 * **Password Recovery:** Structure paths mapping Forgot Password and Reset Password layouts.
@@ -48,7 +48,7 @@ A fully responsive, multi-page donation website that connects donors with meanin
 ### 👥 About, Testimonials & Contact (`aboutus.html`, `Testimonials.html`, `contactme.html`)
 * **Impact Framework:** Grid panels showcasing mission profiles, team cards, and impact stats (**10,000+ donors**).
 * **Location Mapping:** Contact form integrated seamlessly with an embedded functional **Google Maps** block.
-![](aboutme.jpeg)
+![](screenshots/aboutme.jpeg)
 ---
 
 ## 🛠️ Tech Stack & Highlights
